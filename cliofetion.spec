@@ -34,3 +34,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog README
 %{_bindir}/%name
+%{_mandir}/man1/*
