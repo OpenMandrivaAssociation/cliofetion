@@ -1,14 +1,13 @@
 Summary: command line libofetion client implemention
 Name: cliofetion
-Version: 2.1.0
+Version: 2.2.0
 Release: %mkrel 1
 Group: Networking/Instant messaging
 License: GPLv2+
 URL: http://code.google.com/p/ofetion/
 Source0: http://ofetion.googlecode.com/files/%{name}-%{version}.tar.gz
-Patch1: openfetion-1.7-str-fmt.patch
 BuildRoot: %{_tmppath}/%{name}-root
-BuildRequires: libofetion-devel >= %{version}
+BuildRequires: libofetion-devel >= 2.2.0
 BuildRequires: cmake
 
 %description
