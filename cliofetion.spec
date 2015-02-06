@@ -1,7 +1,7 @@
 Summary: command line libofetion client implemention
 Name: cliofetion
 Version: 2.2.0
-Release: 2
+Release: 3
 Group: Networking/Instant messaging
 License: GPLv2+
 URL: http://code.google.com/p/ofetion/
